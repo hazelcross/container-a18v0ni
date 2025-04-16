@@ -6,7 +6,37 @@ services:
     build:
       context: ./src
     ports:
-      - "5000:5000"
+      - "8001:8001"
+      - "8002:8002"
+      - "8003:8003"
+      - "8004:8004"
+      - "8005:8005"
+      - "8006:8006"
+      - "8007:8007"
+      - "8008:8008"
+      - "8009:8009"
+      - "8010:8010"
+      - "8011:8011"
+      - "8101:8101"
+      - "8102:8102"
+      - "8103:8103"
+      - "8104:8104"
+      - "8105:8105"
+      - "8106:8106"
+      - "8107:8107"
+      - "8108:8108"
+      - "8109:8109"
+      - "8110:8110"
+      - "8111:8111"
+      - "8201:8201"
+      - "8202:8202"
+      - "8203:8203"
+      - "8301:8301"
+      - "8302:8302"
+      - "8303:8303"
+      - "8401:8401"
+      - "9000:9000"
+      - "9001:9001"
     volumes:
       - type: bind
         source: ./src/web
@@ -36,15 +66,15 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: app_database
 
-  phpmyadmin:
+  #phpmyadmin:
     # To view the database during local development
     # Visit http://127.0.0.1:8080/
     # Server is: db
     # Username is same as MYSQL_USER
     # Password is same as MYSQL_PASSWORD
-    image: phpmyadmin
-    restart: always
-    ports:
-      - 8080:80
-    environment:
-      PMA_ARBITRARY: "1"
+    # image: phpmyadmin
+    # restart: always
+    # ports:
+    #   - 8080:80
+    # environment:
+    #   PMA_ARBITRARY: "1"

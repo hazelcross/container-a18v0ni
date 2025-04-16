@@ -1,15 +1,13 @@
 {
-  "dependencies": {
-    "express": "^4.19.2",
-    "mysql2": "^3.9.3"
-  },
-  "name": "app",
-  "description": "The version of node you use is very important. Let's use `nvm` (node version manager) to make sure you're at least using an `LTS` (long term stable) release of Node.",
+  "name": "container-collector",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "author": "Hazel Cross <hazeloliviacross@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.9.3",
+    "express": "^5.1.0",
+    "express-ws": "^5.0.2",
+    "ws": "^8.18.1"
+  }
 }
