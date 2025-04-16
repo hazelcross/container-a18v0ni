@@ -1,3 +1,15 @@
+# v0.0.2 (Wed Apr 16 2025)
+
+#### ⚠️ Pushed to `main`
+
+- up to date ([@hazelcross](https://github.com/hazelcross))
+
+#### Authors: 1
+
+- [@hazelcross](https://github.com/hazelcross)
+
+---
+
 # v0.0.1 (Tue Apr 08 2025)
 
 :tada: This release contains work from a new contributor! :tada:
